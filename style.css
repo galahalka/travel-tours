@@ -1,0 +1,235 @@
+@font-face {
+  font-family: BigNoodle;
+  src: url(font/BigNoodleTitling.ttf);
+}
+
+html {
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.top {
+  background: url(img/ostrova.jpg) 100% 100% no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+header {
+  background-color: rgba(1, 0, 0, 0.75);
+}
+
+header:after{
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.icons {
+  border-bottom: 1px solid #3e4349;
+  color: #fff;
+  font-size: 13px;
+  padding: 8px 0 8px 11%;
+}
+
+.icons a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.icons > .fa {
+  margin-left: 24px;
+  margin-right: 5px;
+}
+
+.phone {
+  vertical-align: middle;
+}
+
+.socialicons {
+  float: right;
+}
+
+.socialicons a {
+  margin: 0 15px;
+}
+
+.call {
+  margin: 0 14px;
+  vertical-align: bottom;
+}
+
+.name {
+  float: left;
+  display: inline-block;
+  margin:18px 0 12px 13.75%;
+}
+
+.logo {
+  vertical-align: bottom;
+}
+
+.trip {
+  color: #fff;
+  font-size: 40px;
+  margin-top: 18px;
+  margin-left: 12px;
+}
+
+.finder {
+  color: #007bff;
+  font-size: 40px;
+  margin-top: 18px;
+}
+
+.search {
+  border-left: 1px solid #3e4349;
+  float: right;
+  height: 36px;
+  margin: -8px 0 0 15px;
+  width: 20.125%;
+}
+
+.search input {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  height: 35px;
+  padding-left: 10px;
+  width: 100%;
+}
+
+.search input:focus {
+    background-color: #fff;
+    border: none;
+    color: #000;
+}
+
+.site {
+  color: #fff;
+  display: block;
+  font-size: 13px;
+  margin-left: 65px;
+  margin-top: -8px;
+}
+
+nav {
+  text-align: right;
+  margin: 38px 14.125% 0 0;
+}
+
+nav li {
+  display: inline;
+  font-size: 20px;
+  margin: 26px;
+}
+
+li {
+   list-style-type: none;
+   margin: 0 52px;
+  }
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.journey-begins {
+  margin: 302px 0 188px 10%;
+  text-align: center;
+  width: 600px;
+}
+
+h1 {
+  color: #fff;
+  font-family: BigNoodle;
+  font-weight: normal;
+  font-size: 62px;
+  margin-bottom: 15px;
+}
+
+h2 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: normal;
+  margin-top: 15px;
+}
+
+p {
+background-color: rgba(71, 160, 255, 0.85);
+color: #fff;
+margin-top: 0;
+padding: 70px 804px 60px 224px;
+}
+
+.search-tour {
+  background-color: #fff;
+  box-sizing: border-box;
+  padding: 40px 40px 64px 40px;
+  position: absolute;
+  text-align: center;
+  right:14.25%;
+  top: 220px;
+  width: 510px;
+}
+
+.search-tour h2 {
+  color: #606060;
+  font-family: BigNoodle;
+  font-size: 70px;
+  margin-bottom: 22px;
+}
+
+h3 {
+  color: #606060;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.search-tour input {
+  background-color: #f2f2f2;
+  border: none;
+  border-radius: 6px;
+  box-sizing: border-box;
+  color: #606060;
+  display: block;
+  font-size: 16px;
+  height: 55px;
+  margin-top: 24px;
+  padding-left: 20px;
+  width: 100%;
+}
+
+.search-tour input[type="submit"] {
+  background-color: #006fe6;
+  color: #fff;
+  font-weight: bold;
+}
+
+.findatour {
+  background: url(img/backgraund2.jpg) 100% 100% no-repeat;
+  opacity: 0.5;
+  position: relative;
+  text-align: center;
+}
+
+.findatour h2 {
+  color: #606060;
+  font-family: BigNoodle;
+  font-size: 50px;
+  margin: 110px 0 44px;
+}
+
+.findatour h3 {
+  font-size: 20px;
+  margin: 0 352px 0 228px;
+}
+
+.findatour img {
+  border-radius: 50%;
+  height: 270px;
+  margin: 68px 19px 144px;
+}
