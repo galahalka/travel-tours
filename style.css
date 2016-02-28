@@ -218,11 +218,11 @@ h3 {
 .findatour:after {
   content: "";
   background: url(img/backgraund2.jpg) 100% 100% no-repeat;
-  opacity: 0.5;
-  top: 0;
-  left: 0;
   bottom: 0;
+  left: 0;
+  opacity: 0.5;
   right: 0;
+  top: 0;
   position: absolute;
   z-index: -1;
 }
@@ -264,4 +264,93 @@ h3 {
   text-align: center;
   top: 50%;
   width: 100%;
+}
+
+.discounts {
+  background: url(img/backgraund3.jpg) 100% 100% no-repeat;
+  padding: 120px 0 62px;
+  position: relative;
+  text-align: center;
+  z-index: -2;
+}
+
+.discounts:before {
+  content: "";
+  background-color: #3e8ad9;
+  bottom: 0;
+  left: 0;
+  opacity: 0.8;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.discounts h2 {
+  color: #fff;
+  font-family: BigNoodle;
+  font-size: 50px;
+  letter-spacing: 4px;
+  margin: 0 0 76px;
+  text-align: center;
+}
+
+.surfing {
+  background-color: #fff;
+  display: inline-block;
+  margin: 28px;
+  padding-bottom: 38px;
+  text-align: center;
+  width: 372px;
+}
+
+.surfing h2 {
+  color: #606060;
+}
+
+.surfing img {
+  width: 100%;
+}
+
+.price {
+  background-color: #47a0ff;
+  color: #fff;
+  display: inline-block;
+  font-family: BigNoodle;
+  padding: 12px 18px 12px 22px;
+  position: relative;
+  top: -40px;
+}
+
+.price .old {
+  font-size: 30px;
+  text-decoration: line-through;
+}
+
+.price .new {
+  font-size: 38px;
+  margin: 8px;
+}
+
+.surfing h2 {
+  font-family: BigNoodle;
+  font-size: 50px;
+  margin-top: -28px;
+}
+
+.surfing p {
+  color: #949494;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 28px 20px 40px 48px;
+}
+
+.book {
+  background-color: #006fe6;
+  border: #006fe6;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 18px 50px;
 }
